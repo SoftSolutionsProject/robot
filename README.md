@@ -69,3 +69,11 @@ results/log.html
 results/report.html
 results/output.xml
 ```
+
+## Integrantesc do projeto
+
+- Caio Henrique Rodrigues
+- Evellin de Lima Jacinto
+- Lucas Salvador Notaro
+- Lucas Santo Gomes
+- Rafael da Costa Castro

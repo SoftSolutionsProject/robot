@@ -1,8 +1,8 @@
-# Automacao de Testes - PI
+# Automação de Testes - PI
 
 Projeto de testes automatizados com Robot Framework para uma funcionalidade do PI.
 
-A funcionalidade escolhida foi a consulta publica de cursos da API.
+A funcionalidade escolhida foi a consulta pública de cursos da API.
 
 ## Estrutura
 
@@ -18,26 +18,26 @@ robot/
 └── requirements.txt
 ```
 
-## Pre-requisitos
+## Pré-requisitos
 
 - Python instalado
-- API do PI disponivel no deploy ou rodando localmente
-- Dependencias do projeto Robot instaladas
+- API do PI disponível no deploy ou rodando localmente
+- Dependências do projeto Robot instaladas
 
-Por padrao os testes acessam:
+Por padrão os testes acessam:
 
 ```text
 https://softsolutions-api-prod-brs-fycdfxh4b2g7evgn.canadacentral-01.azurewebsites.net
 ```
 
 
-## Instalacao
+## Instalação
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Execucao
+## Execução
 
 Execute dentro da pasta `robot`:
 
@@ -45,24 +45,24 @@ Execute dentro da pasta `robot`:
 .\.venv\Scripts\python.exe -m robot -d results tests
 ```
 
-Se ainda nao existir a pasta `.venv`, crie o ambiente local antes:
+Se ainda não existir a pasta `.venv`, crie o ambiente local antes:
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
-## Cenarios Automatizados
+## Cenários Automatizados
 
 - Verificar se a API responde em `/health`
-- Listar cursos publicos em `/cursos`
-- Validar erro ao buscar curso com ID invalido em `/cursos/abc`
+- Listar cursos públicos em `/cursos`
+- Validar erro ao buscar curso com ID inválido em `/cursos/abc`
 
-O tempo limite das requisicoes esta configurado em 30 segundos para acomodar o primeiro acesso ao deploy.
+O tempo limite das requisições está configurado em 30 segundos para acomodar o primeiro acesso ao deploy.
 
-## Relatorios
+## Relatórios
 
-Apos a execucao, os relatorios ficam em:
+Após a execução, os relatórios ficam em:
 
 ```text
 results/log.html
@@ -70,10 +70,10 @@ results/report.html
 results/output.xml
 ```
 
-## Integrantesc do projeto
+## Integrantes do Projeto
 
 - Caio Henrique Rodrigues
 - Evellin de Lima Jacinto
 - Lucas Salvador Notaro
-- Lucas Santo Gomes
+- Lucas Santos Gomes
 - Rafael da Costa Castro

@@ -1,0 +1,6 @@
+.venv/
+results/*
+!results/.gitkeep
+log.html
+output.xml
+report.html
